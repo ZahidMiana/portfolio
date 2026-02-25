@@ -678,7 +678,7 @@ const publications = {
 const contactPageData = {
   contactSection: {
     title: "Contact Me",
-    profile_image_path: "animated_ashutosh.png",
+    profile_image_path: "zahid.png",
     description:
       "Feel free to reach out to me! I'm available on all major platforms and typically respond within 24 hours. Whether you need help with MERN Stack, Next.js, Blockchain, AI/ML, or any Full Stack Development — I'd love to connect and collaborate.",
   },
