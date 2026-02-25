@@ -16,35 +16,30 @@ const projectSections = [
     title: "MERN Stack + Next.js",
     subtitle:
       "Full-stack web applications built with MongoDB, Express, React, Node.js, and Next.js",
-    icon: "🚀",
   },
   {
     category: "machine-learning",
     title: "Machine Learning Projects",
     subtitle:
       "Traditional ML models for prediction, recommendation systems, and data analysis using Python, Scikit-learn, and statistical methods",
-    icon: "📈",
   },
   {
     category: "deep-learning",
     title: "Deep Learning Projects",
     subtitle:
       "Computer Vision, NLP, and Neural Networks using TensorFlow, PyTorch, YOLO, and advanced AI techniques",
-    icon: "🧠",
   },
   {
     category: "blockchain",
     title: "Blockchain Projects",
     subtitle:
       "Decentralized applications, smart contracts, and blockchain-based systems built with Solana, Rust, and Ethereum tools",
-    icon: "⛓️",
   },
   {
     category: "ai",
     title: "AI Applications",
     subtitle:
       "AI-powered chatbots, automation tools, and intelligent applications",
-    icon: "🤖",
   },
 ];
 
