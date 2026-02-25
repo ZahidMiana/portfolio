@@ -2,34 +2,40 @@
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
 
-<h1 align="center"> Software Developer Master Portfolio 🔥 </h1> 
-<h3 align="center"> A clean, beautiful, responsive, and 100% customizable portfolio <br /> template for Software Developers! </h3>
+<h1 align="center"> Zahid Iqbal - Software Developer Portfolio 🔥 </h1> 
+<h3 align="center"> Full Stack Developer | AI/ML Enthusiast | MERN Stack Specialist <br /> Welcome to my personal portfolio! </h3>
 
 <p align="center">
-  <a href="http://hits.dwyl.com/ashutosh1919/masterPortfolio"><img alt="HitCounts" src="http://hits.dwyl.com/ashutosh1919/masterPortfolio.svg" /></a>
   <a href="https://nodejs.org/en/blog/release/v20.11.1"><img alt="NodeJS" src="https://img.shields.io/badge/node-20.11.1-important?style=flat-square" /></a>
   <a href="https://www.npmjs.com/package/npm/v/10.2.4"><img alt="NPM" src="https://img.shields.io/badge/npm-10.2.4-blueviolet?style=flat-square" /></a>
   <a href="https://reactjs.org/"><img alt="Made With React" src="https://img.shields.io/badge/made%20with-react-61DAFB?style=flat-square" /></a>
-  <a href="https://join.slack.com/t/masterportfolio/shared_invite/zt-g772n1fo-Ns4usanURF8jVb8wk2lRAA"><img alt="Join Slack Channel For Support" src="https://img.shields.io/badge/slack-masterPortfolio-yellow.svg?logo=slack?style=flat-square" /></a>
-  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
+  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" /></a>
   <br/>
-  <a href="https://app.netlify.com/sites/ashutosh1919portfolio/deploys"><img alt="Netlify Status" src="https://api.netlify.com/api/v1/badges/abf59f82-3251-4040-b24c-949b86691642/deploy-status?style=flat-square" /></a>
-  <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
-  <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://github.com/ashutosh1919/masterPortfolio/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
-  <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
-  <a href="https://ashutoshhathidara.com/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
-  <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
+  <a href="http://badges.mit-license.org/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square" /></a>
+  <a href="https://github.com/ZahidMiana/portfolio_1/commits/master"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
+  <a href="https://img.shields.io/badge/status-live-brightgreen"><img alt="Status" src="https://img.shields.io/badge/status-live-brightgreen?style=flat-square" /></a>
 </p>
-<p align="center">If you want to discuss about something, you can ask on my <a href="https://discord.com/invite/GkcbM5bwZr">Discord Server</a>.</p>
+<p align="center">💼 Looking for opportunities in Full Stack Development & AI/ML roles</p>
 
 <p align="center"> 
-    <a href="https://ashutosh1919.github.io" target="_blank">
+    <a href="https://zahidmiana.github.io/portfolio_1" target="_blank">
     <img src="images/masterPortfolioThemes.png"></img>
   </a>
 </p>
 
-:star: Star us on GitHub — it helps!
+:star: Star this repository if you like my portfolio!
+
+## About Me 👨‍💻
+
+I'm **Zahid Iqbal**, a passionate Full Stack Developer with expertise in:
+
+- 🚀 **MERN Stack** (MongoDB, Express.js, React.js, Node.js)
+- 🤖 **AI/ML Development**
+- 🎨 **UI/UX Design**
+- 🏗️ **System Design**
+- ☁️ **Cloud Infrastructure**
+
+Currently pursuing **Computer Science** with a focus on cutting-edge technologies and innovative solutions.
 
 # Sections 📚
 
@@ -43,18 +49,19 @@
 ✔️ Contact me\
 ✔️ Resume Viewer
 
-To view a live example, **[click here](https://ashutosh1919.github.io/)**
+To view my live portfolio, **[click here](https://zahidmiana.github.io/portfolio_1)**
 
 # Table of Contents
- - [Clone and Use](#clone-and-use)
- - [Customizing](#customize-it-to-make-your-own-portfolio)
- - [Choose Theme](#choose-theme)
- - [Deployment](#deployment)
- - [Technologies Used](#technologies-used)
- - [Illustrations](#illustrations)
- - [License](#license)
- - [Contributors](#contributors)
- - [References](#references)
+
+- [Clone and Use](#clone-and-use)
+- [Customizing](#customize-it-to-make-your-own-portfolio)
+- [Choose Theme](#choose-theme)
+- [Deployment](#deployment)
+- [Technologies Used](#technologies-used)
+- [Illustrations](#illustrations)
+- [License](#license)
+- [Contributors](#contributors)
+- [References](#references)
 
 # Clone and Use 📋
 
@@ -63,7 +70,7 @@ To view a live example, **[click here](https://ashutosh1919.github.io/)**
 - In case you want to help developing it or simply saving it, you can fork the repository just by clicking the button on the top-right corner of this page
 - After the successful installation of `nodejs` and `npm`, clone the repository into your local system using below command:
   ```bash
-   git clone https://github.com/ashutosh1919/masterPortfolio.git
+   git clone https://github.com/ZahidMiana/portfolio_1.git
   ```
   This will clone the whole repository in your system.
 - To download required dependencies to your system, navigate to the directory where the cloned repository resides and execute following command:
@@ -79,7 +86,12 @@ In this project, there are basically 4 things that you need to change to customi
 
 ### package.json
 
-Open this file, which is in the main cloned directory, choose any "name" and change "homepage " to `https://<your-github-username>.github.io`. Do not forget the `https://`, otherwise fonts will not load.
+The package.json file has been configured with:
+
+- **Name**: "zahid-iqbal-portfolio"
+- **Homepage**: `https://zahidmiana.github.io/portfolio_1`
+
+If you want to deploy to a different URL, update the "homepage" field accordingly.
 
 ### Personal Information
 
@@ -197,9 +209,11 @@ Therefore, this part of portfolio is not customizable. But don't worry we have a
 - Also, keep in mind that your resume must be in A4 size.
 - Now, go to <a href="/src/pages/resume/Resume.js">/src/pages/resume/Resume.js</a>.
 - In the import section, find:
+
 ```
 import myResumePdf from "../../assets/docs/Ashutosh_Hathidara_Resume_ML.pdf"
 ```
+
 - and replace **"Ashutosh_Hathidara_Resume_ML.pdf"** with your resume file name.
 - Launch the project and go to the route `/resume` to view your resume.
 
@@ -312,6 +326,37 @@ This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE)
 <!-- prettier-ignore-end -->
 
 <!-- ALL-CONTRIBUTORS-LIST:END -->
+
+## 📞 Contact & Connect
+
+<div align="center">
+
+**Zahid Iqbal** - Full Stack Developer
+
+[![GitHub](https://img.shields.io/badge/GitHub-ZahidMiana-black?style=flat-square&logo=github)](https://github.com/ZahidMiana)
+[![Portfolio](https://img.shields.io/badge/Portfolio-zahidmiana.github.io-blue?style=flat-square&logo=react)](https://zahidmiana.github.io/portfolio_1)
+
+---
+
+⭐ **If you like this portfolio, please give it a star!** ⭐
+
+**Built with ❤️ by Zahid Iqbal**
+
+</div>
+
+---
+
+**References 📚**
+
+- Original template inspiration: [masterPortfolio](https://github.com/ashutosh1919/masterPortfolio)
+- React.js Documentation
+- Iconify Icons
+- GitHub Pages Deployment Guide
+
+**License 📄**
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+<!-- Template Contributors -->
 
 # References 👏🏻
 
