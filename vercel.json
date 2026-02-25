@@ -5,10 +5,14 @@
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
-        "distDir": "build"
+        "distDir": "build",
+        "buildCommand": "npm run vercel-build"
       }
     }
   ],
+  "env": {
+    "NODE_OPTIONS": "--openssl-legacy-provider"
+  },
   "routes": [
     {
       "src": "/(.*)",
