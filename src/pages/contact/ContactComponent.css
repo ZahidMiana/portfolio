@@ -38,6 +38,16 @@
   justify-content: center;
 }
 
+.contact-heading-img-div img {
+  max-width: 300px;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 4px solid #e5e5e5;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
 .blog-heading-img-div {
   align-items: center;
   justify-content: center;
@@ -140,6 +150,12 @@
 }
 
 @media (max-width: 768px) {
+  .contact-heading-img-div img {
+    max-width: 200px;
+    width: 200px;
+    height: 200px;
+  }
+
   .contact-heading-text {
     font-size: 30px;
     margin-top: 0px;
