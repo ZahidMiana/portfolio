@@ -192,7 +192,7 @@
       "url": "https://github.com/ZahidMiana/Movie_Recommendation_System",
       "description": "Content-based movie recommendation system using cosine similarity on bag-of-words vectors. Trained on TMDB 5000 Movies dataset with NLP preprocessing (Porter Stemmer). Interactive Streamlit web app with real-time movie poster fetching via TMDB API.",
       "isFork": false,
-      "category": "ai",
+      "category": "machine-learning",
       "languages": [
         {
           "name": "Python",
@@ -219,7 +219,7 @@
       "url": "https://github.com/ZahidMiana/House-Price-Prediction-",
       "description": "ML project predicting California house prices using Random Forest Regression (R² ~0.80). Features GridSearchCV hyperparameter tuning, feature engineering, comprehensive EDA, and an interactive Streamlit web app for real-time predictions.",
       "isFork": false,
-      "category": "ai",
+      "category": "machine-learning",
       "languages": [
         {
           "name": "Python",
@@ -236,6 +236,60 @@
         {
           "name": "Streamlit",
           "iconifyClass": "simple-icons:streamlit"
+        }
+      ]
+    },
+    {
+      "id": "yolo-object-detection",
+      "name": "YOLO Object Detection",
+      "createdAt": "2026-02-15T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/YOLO_Object_Detection",
+      "description": "Real-time object detection system using YOLOv8 (You Only Look Once) deep learning model. Trained on COCO dataset for detecting 80+ object classes with bounding boxes, confidence scores, and real-time video processing capabilities.",
+      "isFork": false,
+      "category": "deep-learning",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "PyTorch",
+          "iconifyClass": "logos-pytorch"
+        },
+        {
+          "name": "OpenCV",
+          "iconifyClass": "simple-icons:opencv"
+        },
+        {
+          "name": "YOLO",
+          "iconifyClass": "simple-icons:console"
+        }
+      ]
+    },
+    {
+      "id": "ai-resume-screening",
+      "name": "AI Resume Screening System",
+      "createdAt": "2026-02-20T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/AI_RESUME_SCREENING",
+      "description": "Intelligent ATS (Applicant Tracking System) using NLP and deep learning for automated resume screening. Features keyword matching, skill extraction, relevance scoring, and candidate ranking with BERT-based embeddings.",
+      "isFork": false,
+      "category": "deep-learning",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "TensorFlow",
+          "iconifyClass": "logos-tensorflow"
+        },
+        {
+          "name": "BERT",
+          "iconifyClass": "simple-icons:huggingface"
+        },
+        {
+          "name": "NLP",
+          "iconifyClass": "simple-icons:spacy"
         }
       ]
     },

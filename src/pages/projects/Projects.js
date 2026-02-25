@@ -19,6 +19,20 @@ const projectSections = [
     icon: "🚀",
   },
   {
+    category: "machine-learning",
+    title: "Machine Learning Projects",
+    subtitle:
+      "Traditional ML models for prediction, recommendation systems, and data analysis using Python, Scikit-learn, and statistical methods",
+    icon: "📈",
+  },
+  {
+    category: "deep-learning",
+    title: "Deep Learning Projects",
+    subtitle:
+      "Computer Vision, NLP, and Neural Networks using TensorFlow, PyTorch, YOLO, and advanced AI techniques",
+    icon: "🧠",
+  },
+  {
     category: "blockchain",
     title: "Blockchain Projects",
     subtitle:
@@ -27,9 +41,9 @@ const projectSections = [
   },
   {
     category: "ai",
-    title: "AI Engineering & ML/DL",
+    title: "AI Applications",
     subtitle:
-      "Machine learning models, recommendation systems, and AI-powered applications using Python, Scikit-learn, and NLP",
+      "AI-powered chatbots, automation tools, and intelligent applications",
     icon: "🤖",
   },
 ];
