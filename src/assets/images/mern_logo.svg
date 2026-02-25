@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <rect width="200" height="200" rx="20" fill="#0d1117"/>
+  <text x="100" y="90" text-anchor="middle" font-size="32" font-weight="800" fill="#61dafb" font-family="sans-serif">MERN</text>
+  <line x1="50" y1="105" x2="150" y2="105" stroke="#61dafb" stroke-width="2" opacity="0.5"/>
+  <text x="100" y="130" text-anchor="middle" font-size="12" fill="#8b949e" font-family="sans-serif">MongoDB • Express</text>
+  <text x="100" y="148" text-anchor="middle" font-size="12" fill="#8b949e" font-family="sans-serif">React • Node.js</text>
+</svg>

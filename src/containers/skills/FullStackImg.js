@@ -5,253 +5,815 @@ export default class FullStackImg extends Component {
     const theme = this.props.theme;
     return (
       <svg
-        id="f0a8f4ba-cc2b-4400-9e08-d246a0bad060"
-        data-name="Layer 1"
         xmlns="http://www.w3.org/2000/svg"
-        width="1098.75"
-        height="632.37039"
-        viewBox="0 0 1098.75 632.37039"
+        width="900"
+        height="600"
+        viewBox="0 0 900 600"
       >
-        <title>heatmap</title>
+        <title>Full Stack Development</title>
+
+        {/* Ground shadow */}
         <ellipse
-          cx="549.375"
-          cy="600.77366"
-          rx="549.375"
-          ry="31.59674"
-          fill={theme.compImgHighlight}
+          cx="450"
+          cy="550"
+          rx="360"
+          ry="35"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+
+        {/* Monitor */}
+        <rect
+          x="200"
+          y="60"
+          width="500"
+          height="340"
+          rx="16"
+          fill={theme.imageHighlight}
+          opacity="0.28"
+        />
+        {/* Screen inner */}
+        <rect
+          x="220"
+          y="80"
+          width="460"
+          height="290"
+          rx="8"
+          fill={theme.body}
+          stroke={theme.imageHighlight}
+          strokeWidth="1"
+          opacity="0.9"
+        />
+        {/* Monitor stand */}
+        <rect
+          x="400"
+          y="400"
+          width="100"
+          height="50"
+          fill={theme.imageHighlight}
+          opacity="0.85"
         />
         <rect
-          x="174.96748"
-          width="825.31765"
-          height="26.25696"
-          fill={theme.compImgHighlight}
-        />
-        <circle
-          cx="197.05271"
-          cy="12.74148"
-          r="6.79546"
+          x="350"
+          y="445"
+          width="200"
+          height="12"
+          rx="6"
           fill={theme.imageHighlight}
+          opacity="0.85"
         />
-        <circle
-          cx="219.13794"
-          cy="12.74148"
-          r="6.79546"
+
+        {/* Top bar (browser) */}
+        <rect
+          x="220"
+          y="80"
+          width="460"
+          height="28"
+          rx="8"
           fill={theme.imageHighlight}
+          opacity="0.85"
         />
-        <circle
-          cx="241.22317"
-          cy="12.74148"
-          r="6.79546"
+        {/* Browser dots */}
+        <circle cx="240" cy="94" r="5" fill="#ff5f57" opacity="0.9" />
+        <circle cx="258" cy="94" r="5" fill="#febc2e" opacity="0.9" />
+        <circle cx="276" cy="94" r="5" fill="#28c840" opacity="0.9" />
+        {/* URL bar */}
+        <rect
+          x="300"
+          y="87"
+          width="250"
+          height="14"
+          rx="7"
           fill={theme.imageHighlight}
+          opacity="0.75"
         />
-        <polygon
-          points="175.552 415.277 174.967 415.779 174.967 592.903 1000.285 592.903 1000.285 281.779 990.449 282.525 175.552 415.277"
+
+        {/* === Code Editor Left Panel === */}
+        <rect
+          x="230"
+          y="118"
+          width="200"
+          height="240"
+          rx="4"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+        {/* File tree header */}
+        <rect
+          x="235"
+          y="123"
+          width="60"
+          height="8"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.8"
+        />
+
+        {/* File tree items */}
+        <rect
+          x="245"
+          y="140"
+          width="45"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.75"
+        />
+        <rect
+          x="255"
+          y="152"
+          width="70"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+        <rect
+          x="255"
+          y="164"
+          width="55"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+        <rect
+          x="255"
+          y="176"
+          width="65"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+        <rect
+          x="245"
+          y="192"
+          width="50"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.75"
+        />
+        <rect
+          x="255"
+          y="204"
+          width="60"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+        <rect
+          x="255"
+          y="216"
+          width="75"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+        <rect
+          x="245"
+          y="232"
+          width="40"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.75"
+        />
+        <rect
+          x="255"
+          y="244"
+          width="55"
+          height="6"
+          rx="2"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+
+        {/* === Code Editor Right Panel === */}
+        <rect
+          x="440"
+          y="118"
+          width="230"
+          height="240"
+          rx="4"
+          fill={theme.imageHighlight}
+          opacity="0.85"
+        />
+
+        {/* Line numbers */}
+        <text
+          x="450"
+          y="140"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          1
+        </text>
+        <text
+          x="450"
+          y="153"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          2
+        </text>
+        <text
+          x="450"
+          y="166"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          3
+        </text>
+        <text
+          x="450"
+          y="179"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          4
+        </text>
+        <text
+          x="450"
+          y="192"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          5
+        </text>
+        <text
+          x="450"
+          y="205"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          6
+        </text>
+        <text
+          x="450"
+          y="218"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          7
+        </text>
+        <text
+          x="450"
+          y="231"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          8
+        </text>
+        <text
+          x="450"
+          y="244"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          9
+        </text>
+        <text
+          x="447"
+          y="257"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          10
+        </text>
+        <text
+          x="447"
+          y="270"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          11
+        </text>
+        <text
+          x="447"
+          y="283"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.8"
+          fontFamily="monospace"
+        >
+          12
+        </text>
+
+        {/* Code lines - syntax highlighted */}
+        <rect
+          x="468"
+          y="134"
+          width="60"
+          height="6"
+          rx="2"
+          fill="#c678dd"
+          opacity="0.85"
+        />
+        <rect
+          x="532"
+          y="134"
+          width="40"
+          height="6"
+          rx="2"
+          fill="#e06c75"
+          opacity="0.75"
+        />
+        <rect
+          x="576"
+          y="134"
+          width="30"
+          height="6"
+          rx="2"
+          fill="#61afef"
+          opacity="0.75"
+        />
+
+        <rect
+          x="478"
+          y="147"
+          width="45"
+          height="6"
+          rx="2"
+          fill="#98c379"
+          opacity="0.75"
+        />
+        <rect
+          x="528"
+          y="147"
+          width="70"
+          height="6"
+          rx="2"
+          fill="#d19a66"
+          opacity="0.75"
+        />
+
+        <rect
+          x="478"
+          y="160"
+          width="55"
+          height="6"
+          rx="2"
+          fill="#61afef"
+          opacity="0.75"
+        />
+        <rect
+          x="538"
+          y="160"
+          width="35"
+          height="6"
+          rx="2"
+          fill="#e5c07b"
+          opacity="0.75"
+        />
+        <rect
+          x="578"
+          y="160"
+          width="50"
+          height="6"
+          rx="2"
+          fill="#98c379"
+          opacity="0.75"
+        />
+
+        <rect
+          x="488"
+          y="173"
+          width="80"
+          height="6"
+          rx="2"
+          fill="#e06c75"
+          opacity="0.75"
+        />
+
+        <rect
+          x="488"
+          y="186"
+          width="50"
+          height="6"
+          rx="2"
+          fill="#c678dd"
+          opacity="0.75"
+        />
+        <rect
+          x="543"
+          y="186"
+          width="65"
+          height="6"
+          rx="2"
+          fill="#61afef"
+          opacity="0.75"
+        />
+
+        <rect
+          x="498"
+          y="199"
+          width="40"
+          height="6"
+          rx="2"
+          fill="#d19a66"
+          opacity="0.75"
+        />
+        <rect
+          x="543"
+          y="199"
+          width="55"
+          height="6"
+          rx="2"
+          fill="#98c379"
+          opacity="0.75"
+        />
+
+        <rect
+          x="488"
+          y="212"
+          width="70"
+          height="6"
+          rx="2"
+          fill="#e5c07b"
+          opacity="0.75"
+        />
+
+        <rect
+          x="478"
+          y="225"
+          width="35"
+          height="6"
+          rx="2"
+          fill="#c678dd"
+          opacity="0.75"
+        />
+
+        <rect
+          x="468"
+          y="238"
+          width="90"
+          height="6"
+          rx="2"
+          fill="#61afef"
+          opacity="0.75"
+        />
+        <rect
+          x="563"
+          y="238"
+          width="40"
+          height="6"
+          rx="2"
+          fill="#e06c75"
+          opacity="0.85"
+        />
+
+        <rect
+          x="478"
+          y="251"
+          width="60"
+          height="6"
+          rx="2"
+          fill="#98c379"
+          opacity="0.75"
+        />
+
+        <rect
+          x="478"
+          y="264"
+          width="45"
+          height="6"
+          rx="2"
+          fill="#d19a66"
+          opacity="0.75"
+        />
+        <rect
+          x="528"
+          y="264"
+          width="55"
+          height="6"
+          rx="2"
+          fill="#e5c07b"
+          opacity="0.85"
+        />
+
+        <rect
+          x="468"
+          y="277"
+          width="50"
+          height="6"
+          rx="2"
+          fill="#c678dd"
+          opacity="0.75"
+        />
+
+        {/* Terminal at bottom of screen */}
+        <rect
+          x="230"
+          y="330"
+          width="440"
+          height="30"
+          fill={theme.imageHighlight}
+          opacity="0.38"
+        />
+        <text
+          x="240"
+          y="348"
+          fill={theme.imageHighlight}
+          fontSize="8"
+          opacity="0.85"
+          fontFamily="monospace"
+        >
+          $ npm run dev
+        </text>
+        <rect
+          x="315"
+          y="343"
+          width="6"
+          height="10"
+          fill={theme.imageHighlight}
+          opacity="0.75"
+        />
+
+        {/* === Floating Tech Labels === */}
+
+        {/* React badge - top left */}
+        <rect
+          x="100"
+          y="100"
+          width="70"
+          height="28"
+          rx="14"
+          fill={theme.imageHighlight}
+          opacity="0.28"
+        />
+        <text
+          x="135"
+          y="118"
+          textAnchor="middle"
           fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          React
+        </text>
+        <line
+          x1="170"
+          y1="114"
+          x2="220"
+          y2="130"
+          stroke={theme.imageHighlight}
+          strokeWidth="1"
+          strokeDasharray="4,3"
+          opacity="0.75"
         />
+
+        {/* Node.js badge - right */}
         <rect
-          x="234.5289"
-          y="175.64069"
-          width="230.47032"
-          height="9.29316"
+          x="710"
+          y="140"
+          width="80"
+          height="28"
+          rx="14"
+          fill={theme.imageHighlight}
+          opacity="0.28"
+        />
+        <text
+          x="750"
+          y="158"
+          textAnchor="middle"
           fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          Node.js
+        </text>
+        <line
+          x1="710"
+          y1="154"
+          x2="680"
+          y2="170"
+          stroke={theme.imageHighlight}
+          strokeWidth="1"
+          strokeDasharray="4,3"
+          opacity="0.75"
         />
+
+        {/* MongoDB badge - left */}
         <rect
-          x="234.5289"
-          y="196.08564"
-          width="230.47032"
-          height="9.29316"
+          x="80"
+          y="250"
+          width="90"
+          height="28"
+          rx="14"
+          fill={theme.imageHighlight}
+          opacity="0.28"
+        />
+        <text
+          x="125"
+          y="268"
+          textAnchor="middle"
           fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          MongoDB
+        </text>
+        <line
+          x1="170"
+          y1="264"
+          x2="220"
+          y2="270"
+          stroke={theme.imageHighlight}
+          strokeWidth="1"
+          strokeDasharray="4,3"
+          opacity="0.75"
         />
+
+        {/* Next.js badge - top right */}
         <rect
-          x="234.5289"
-          y="216.53058"
-          width="78.06253"
-          height="9.29316"
+          x="720"
+          y="230"
+          width="80"
+          height="28"
+          rx="14"
+          fill={theme.imageHighlight}
+          opacity="0.28"
+        />
+        <text
+          x="760"
+          y="248"
+          textAnchor="middle"
           fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          Next.js
+        </text>
+        <line
+          x1="720"
+          y1="244"
+          x2="680"
+          y2="260"
+          stroke={theme.imageHighlight}
+          strokeWidth="1"
+          strokeDasharray="4,3"
+          opacity="0.75"
         />
+
+        {/* Docker badge - bottom left */}
         <rect
-          x="704.5289"
-          y="433.64069"
-          width="230.47032"
-          height="9.29316"
-          fill="#fff"
+          x="120"
+          y="420"
+          width="75"
+          height="28"
+          rx="14"
+          fill={theme.imageHighlight}
+          opacity="0.28"
         />
-        <rect
-          x="704.5289"
-          y="454.08564"
-          width="230.47032"
-          height="9.29316"
-          fill="#fff"
-        />
-        <rect
-          x="704.5289"
-          y="474.53058"
-          width="78.06253"
-          height="9.29316"
-          fill="#fff"
-        />
-        <circle
-          cx="561.33549"
-          cy="575.26922"
-          r="9.0658"
-          fill={theme.compImgHighlight}
-        />
-        <circle
-          cx="587.6263"
-          cy="576.1758"
-          r="9.0658"
-          fill={theme.compImgHighlight}
-        />
-        <circle
-          cx="613.91711"
-          cy="577.08238"
-          r="9.0658"
-          fill={theme.compImgHighlight}
-        />
-        <circle cx="587.70943" cy="576.1758" r="7.25264" fill={theme.text} />
-        <rect
-          x="310.5289"
-          y="282.01368"
-          width="78.06253"
-          height="17.81006"
+        <text
+          x="157"
+          y="438"
+          textAnchor="middle"
           fill={theme.text}
-        />
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          Docker
+        </text>
+
+        {/* Solana badge - bottom right */}
         <rect
-          x="774.5289"
-          y="523.01368"
-          width="78.06253"
-          height="17.81006"
-          fill="#fff"
-        />
-        <circle
-          cx="350"
-          cy="291.01368"
-          r="54"
+          x="680"
+          y="400"
+          width="80"
+          height="28"
+          rx="14"
           fill={theme.imageHighlight}
-          opacity="0.3"
+          opacity="0.28"
         />
-        <circle
-          cx="350"
-          cy="291.01368"
-          r="36"
-          fill={theme.imageHighlight}
-          opacity="0.3"
-        />
-        <circle cx="350" cy="291.01368" r="25" fill={theme.imageHighlight} />
-        <circle
-          cx="804.375"
-          cy="157.1852"
-          r="54"
-          fill={theme.imageHighlight}
-          opacity="0.3"
-        />
-        <circle
-          cx="804.375"
-          cy="157.1852"
-          r="36"
-          fill={theme.imageHighlight}
-          opacity="0.3"
-        />
-        <circle cx="804.375" cy="157.1852" r="25" fill={theme.imageHighlight} />
-        <circle
-          cx="814"
-          cy="532.01368"
-          r="54"
-          fill={theme.imageHighlight}
-          opacity="0.3"
-        />
-        <circle
-          cx="814"
-          cy="532.01368"
-          r="36"
-          fill={theme.imageHighlight}
-          opacity="0.3"
-        />
-        <circle cx="814" cy="532.01368" r="25" fill={theme.imageHighlight} />
+        <text
+          x="720"
+          y="418"
+          textAnchor="middle"
+          fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          Solana
+        </text>
+
+        {/* Rust badge */}
         <rect
-          x="141.09287"
-          y="215.02041"
-          width="22.24232"
-          height="28.59727"
-          transform="translate(244.80285 330.54921) rotate(-177.77929)"
+          x="700"
+          y="340"
+          width="65"
+          height="28"
+          rx="14"
           fill={theme.imageHighlight}
+          opacity="0.28"
         />
-        <path
-          d="M241.91491,314.67894s30.77895-14.70576,30.28646-2.00541-31.02521,21.05594-31.02521,21.05594Z"
-          transform="translate(-50.625 -133.8148)"
-          fill="#ffb9b9"
-        />
-        <path
-          d="M225.02834,422.13944S239.54941,457.681,244.9146,483.328s13.53608,60.94229,3.02582,85.97362-40.39191,98.59934-40.69972,106.53706,2.55946,15.99857-3.79071,15.75232-40.90677-11.12588-42.30963-15.95007,11.79-17.032,11.79-17.032l32.57732-102.08224L171.5182,490.02139l-24.51648,99.215-4.80184,123.82843s-23.56691-7.2736-26.98824-1.04655c0,0-10.55875-14.71883-11.90005-21.13057s4.98653-128.59106,4.98653-128.59106-21.63236-139.16289-4.16937-138.4857S189.99232,382.62245,225.02834,422.13944Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.dark}
-        />
-        <path
-          d="M203.69623,685.2408s16.10862,35.60315,17.63461,37.25226,12.02317,17.95548,4.08545,17.64767-26.68044-8.98428-40.47584-22.23869-31.98406-36.21877-30.33495-37.74475,12.9466-5.85768,12.9466-5.85768Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.dark}
-        />
-        <path
-          d="M139.33261,705.00394s.97192,15.937,3.90076,22.4103,2.55947,15.99856-5.37825,15.69075-28.45267-4.2832-28.45267-4.2832-1.21817-9.58683.43093-11.11281,8.67647-18.74272,5.68607-23.62847S139.33261,705.00394,139.33261,705.00394Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.dark}
-        />
-        <path
-          d="M127.58939,187.8209s-16.922,26.37263-23.51842,32.47656,11.9616,19.543,11.9616,19.543l33.2153,4.46789s-.41786-30.2249,1.29281-33.33842S127.58939,187.8209,127.58939,187.8209Z"
-          transform="translate(-50.625 -133.8148)"
-          fill="#ffb9b9"
-        />
-        <path
-          d="M156.45992,222.329s-6.84267,12.45411-13.19285,12.20786-39.1961-14.2394-40.599-19.0636-10.87963,34.5566-10.87963,34.5566L172.16,391.47053l19.60459-13.54915-9.49913-83.04478-7.80153-44.8206Z"
-          transform="translate(-50.625 -133.8148)"
+        <text
+          x="732"
+          y="358"
+          textAnchor="middle"
+          fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          Rust
+        </text>
+
+        {/* Git badge */}
+        <rect
+          x="100"
+          y="340"
+          width="55"
+          height="28"
+          rx="14"
           fill={theme.imageHighlight}
+          opacity="0.28"
         />
-        <path
-          d="M99.70361,348.91253c3.206,6.70666,5.20835,13.70047,4.9307,20.86031-.01231.31753-.02462.635-.05282.95187-.76057,14.69329-6.17341,31.68645-8.11534,44.04442-1.40908,8.86485-1.00808,15.33552,4.1797,16.85636,12.57723,3.66759-1.83379,6.28862,46.826,22.48494s57.15159,2.21623,57.27471-.95886-6.89116-27.29606-5.24206-28.822,23.07442,19.974,29.54772,17.04512.73874-19.05053.73874-19.05053-14.58264-33.954-14.27483-41.89176-22.08942-45.37466-22.08942-45.37466L178.193,235.89122s-5.85768-12.9466-13.73384-14.84195-14.411,2.621-14.411,2.621L163.228,252.80015l13.90546,51.417-2.32629,18.989s-16.17018-34.0156-26.7905-47.14689-33.26379-44.21805-33.26379-44.21805-5.28646-17.83738-1.2957-23.16791c3.99136-5.34632-16.64671-6.14663-25.4463,15.77118-4.66382,11.61641-12.23581,28.93924-16.97922,45.068-4.22682,14.28852-6.22343,27.646-2.03588,35.28111C75.396,316.45748,91.4958,331.78866,99.70361,348.91253Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.jacketColor}
-        />
-        <path
-          d="M68.99574,304.79359c6.40029,11.66389,22.50006,26.99507,30.70787,44.11894,2.14378-7.72349,4.75909-15.71476,4.75909-15.71476s10.03082-53.66869-19.64-67.53872a19.85762,19.85762,0,0,0-13.79106,3.85343C66.8048,283.801,64.80819,297.15851,68.99574,304.79359Z"
-          transform="translate(-50.625 -133.8148)"
-          opacity="0.1"
-        />
-        <path
-          d="M186.7818,301.41146l25.15446,7.33517,34.926,1.35436,3.593,30.348L193.05735,344.583S178.721,304.27874,186.7818,301.41146Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.jacketColor}
-        />
-        <path
-          d="M145.764,403.451s33.65163,5.58313,25.971,15.7098-37.49194-.51979-37.49194-.51979Z"
-          transform="translate(-50.625 -133.8148)"
-          fill="#ffb9b9"
-        />
-        <path
-          d="M104.58149,370.72471c-.76057,14.69329-6.17341,31.68645-8.11534,44.04442,10.72016,10.14608,20.91438,19.09523,24.75621,19.24421,7.93772.30781,20.69963-.78723,25.4007.985s7.4583-28.32955,7.4583-28.32955-2.80572-9.64839-15.32139-14.90351C130.31217,388.21008,114.119,378.56726,104.58149,370.72471Z"
-          transform="translate(-50.625 -133.8148)"
-          opacity="0.1"
-        />
-        <path
-          d="M85.19206,256.13379s-26.86513-4.22165-25.41378,40.35271-2.83185,73.027,7.97315,81.39568,45.90258,46.29809,53.8403,46.6059,20.69964-.78724,25.40071.985,7.45829-28.32954,7.45829-28.32954S151.645,387.49514,139.12935,382.24s-42.00182-23.88779-41.75558-30.238,7.4583-28.32955,7.4583-28.32955S114.8629,270.00382,85.19206,256.13379Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.jacketColor}
-        />
-        <circle cx="100.65442" cy="58.10462" r="34.95222" fill="#ffb9b9" />
-        <path
-          d="M174.81363,141.82272a6.74905,6.74905,0,0,0,2.93882,1.47478,2.09716,2.09716,0,0,0,2.43029-1.68345c.79968,1.65841,1.70192,3.42593,3.33461,4.27689s4.15732.13741,4.39266-1.68864a7.706,7.706,0,0,0,1.77364,3.74392c1.013.96584,2.85,1.20961,3.73439.12482-.715,3.90745-.27369,7.92586-.49823,11.89184s-1.2821,8.17049-4.27847,10.7784c-4.36987,3.80334-10.94108,2.86467-16.68929,2.1441a5.06575,5.06575,0,0,0-2.61539.14307c-2.15231.917-2.05467,3.9131-2.08369,6.25243a17.37275,17.37275,0,0,1-15.21221,16.49749,8.70861,8.70861,0,0,1-6.47244-1.57964c-1.63206-1.38336-2.46572-3.63806-4.33585-4.67724-3.04207-1.6904-6.73153.77486-8.95568,3.45158s-4.4162,5.96933-7.86172,6.45932c-4.55691.648-8.02766-3.996-9.73047-8.27217a48.223,48.223,0,0,1,.95837-37.46978C125.15791,132.94937,157.66118,129.66876,174.81363,141.82272Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.dark}
-        />
-        <path
-          d="M1013.84731,697.58434c12.30975,20.99239,37.13647,29.30353,37.13647,29.30353s4.86866-25.72424-7.44108-46.71664-37.13647-29.30354-37.13647-29.30354S1001.53756,676.59194,1013.84731,697.58434Z"
-          transform="translate(-50.625 -133.8148)"
-          fill={theme.compImgHighlight}
-        />
-        <path
-          d="M1021.52851,690.25752c21.28835,11.79052,30.20667,36.40565,30.20667,36.40565s-25.59693,5.49892-46.88529-6.2916-30.20667-36.40564-30.20667-36.40564S1000.24015,678.467,1021.52851,690.25752Z"
-          transform="translate(-50.625 -133.8148)"
+        <text
+          x="127"
+          y="358"
+          textAnchor="middle"
+          fill={theme.text}
+          fontSize="10"
+          fontFamily="sans-serif"
+          opacity="0.85"
+        >
+          Git
+        </text>
+
+        {/* Decorative brackets */}
+        <text
+          x="130"
+          y="190"
           fill={theme.imageHighlight}
-        />
+          fontSize="40"
+          opacity="0.75"
+          fontFamily="monospace"
+        >
+          {"{"}
+        </text>
+        <text
+          x="740"
+          y="310"
+          fill={theme.imageHighlight}
+          fontSize="40"
+          opacity="0.75"
+          fontFamily="monospace"
+        >
+          {"}"}
+        </text>
+        <text
+          x="150"
+          y="160"
+          fill={theme.imageHighlight}
+          fontSize="22"
+          opacity="0.38"
+          fontFamily="monospace"
+        >
+          {"</>"}
+        </text>
+        <text
+          x="710"
+          y="190"
+          fill={theme.imageHighlight}
+          fontSize="22"
+          opacity="0.38"
+          fontFamily="monospace"
+        >
+          {"()"}
+        </text>
       </svg>
     );
   }

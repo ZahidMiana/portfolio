@@ -1,115 +1,261 @@
 {
   "data": [
     {
-      "id": "R_kgDOJWL0-g",
-      "name": "mdp-diffusion",
-      "createdAt": "2023-04-13T04:18:19Z",
-      "url": "https://github.com/ashutosh1919/mdp-diffusion",
-      "description": "Text-guided image editing by manipulating diffusion path without any training.",
+      "id": "smart-kisaan",
+      "name": "Smart Kisaan",
+      "createdAt": "2024-09-15T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/SMART-KISAAN",
+      "description": "AI-powered farming platform empowering Pakistani farmers with real-time market prices, weather forecasts, crop disease identification, and a bilingual AI assistant (English & Urdu). Built with Node.js, Express, MongoDB, and Google Gemini AI.",
       "isFork": false,
+      "category": "mern",
+      "languages": [
+        {
+          "name": "HTML",
+          "iconifyClass": "logos-html-5"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        },
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs-icon"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb-icon"
+        }
+      ]
+    },
+    {
+      "id": "zameen-khatta",
+      "name": "Zameen Khatta",
+      "createdAt": "2024-12-01T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/zameenkhatta",
+      "description": "Full-stack real estate platform for Pakistan built with Next.js 13, TypeScript, PostgreSQL, and Prisma. Features property listings, admin panel, role-based auth (NextAuth.js), email notifications, Redis caching, and performance monitoring.",
+      "isFork": false,
+      "category": "mern",
+      "languages": [
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Next.js",
+          "iconifyClass": "logos-nextjs-icon"
+        },
+        {
+          "name": "PostgreSQL",
+          "iconifyClass": "logos-postgresql"
+        },
+        {
+          "name": "Tailwind CSS",
+          "iconifyClass": "logos-tailwindcss-icon"
+        }
+      ]
+    },
+    {
+      "id": "netflix-clone",
+      "name": "Mianaflix - Netflix Clone",
+      "createdAt": "2024-11-01T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/netflixclone",
+      "description": "Full-featured Netflix clone with React, Redux Toolkit, and Firebase Auth. Includes movie/TV browsing via TMDB API, trailer playback, search, My List, Continue Watching, multiple user profiles, and fully responsive Netflix-style UI.",
+      "isFork": false,
+      "category": "mern",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
+        },
+        {
+          "name": "CSS",
+          "iconifyClass": "logos-css-3"
+        }
+      ]
+    },
+    {
+      "id": "solrush",
+      "name": "SOLRUSH - Solana DEX",
+      "createdAt": "2025-10-01T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/SOLRUSH",
+      "description": "Decentralized exchange (DEX) built on Solana blockchain with Rust smart contracts. Features liquidity pools (SOL/USDC & SOL/USDT), market buy/sell, RUSH token rewards system, wallet integration, and a full trading UI deployed on Devnet.",
+      "isFork": false,
+      "category": "blockchain",
+      "languages": [
+        {
+          "name": "Rust",
+          "iconifyClass": "logos-rust"
+        },
+        {
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "Solana",
+          "iconifyClass": "cryptocurrency-color:sol"
+        }
+      ]
+    },
+    {
+      "id": "zakat-blockchain",
+      "name": "Zakat Blockchain System",
+      "createdAt": "2025-09-15T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/Zakat_BlockChain_System",
+      "description": "Blockchain-based Zakat management system with automatic 2.5% calculation, SHA-256 hashing, secure transaction tracking, and a Streamlit web dashboard. Implements custom blockchain with genesis blocks and chain validation.",
+      "isFork": false,
+      "category": "blockchain",
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
         },
         {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
+          "name": "Streamlit",
+          "iconifyClass": "simple-icons:streamlit"
+        }
+      ]
+    },
+    {
+      "id": "attendance-blockchain",
+      "name": "Blockchain Attendance System",
+      "createdAt": "2025-11-17T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/ATTENDENCE_MANAGEMENT",
+      "description": "Three-tier hierarchical blockchain attendance management system (BAMS) with SHA-256 PoW mining. Features Department → Class → Student chain layers, real-time visualization, RESTful API, and React/TypeScript frontend deployed on Vercel.",
+      "isFork": false,
+      "category": "blockchain",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
         },
         {
-          "name": "Jupyter Notebook",
+          "name": "TypeScript",
+          "iconifyClass": "logos-typescript-icon"
+        },
+        {
+          "name": "React",
+          "iconifyClass": "logos-react"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs-icon"
+        }
+      ]
+    },
+    {
+      "id": "metamask-clone",
+      "name": "MianaMask - MetaMask Clone",
+      "createdAt": "2025-07-01T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/MetaMask_Clone",
+      "description": "Fully functional MetaMask clone Chrome extension with wallet creation, account import via private keys, multi-account management, ETH transactions, multi-network support (Mainnet, Sepolia, Goerli), and Ethers.js blockchain interaction.",
+      "isFork": false,
+      "category": "blockchain",
+      "languages": [
+        {
+          "name": "JavaScript",
+          "iconifyClass": "logos-javascript"
+        },
+        {
+          "name": "Ethers.js",
+          "iconifyClass": "logos-ethereum"
+        },
+        {
+          "name": "MongoDB",
+          "iconifyClass": "logos-mongodb-icon"
+        },
+        {
+          "name": "Node.js",
+          "iconifyClass": "logos-nodejs-icon"
+        }
+      ]
+    },
+    {
+      "id": "movie-recommendation",
+      "name": "Movie Recommendation System",
+      "createdAt": "2026-02-10T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/Movie_Recommendation_System",
+      "description": "Content-based movie recommendation system using cosine similarity on bag-of-words vectors. Trained on TMDB 5000 Movies dataset with NLP preprocessing (Porter Stemmer). Interactive Streamlit web app with real-time movie poster fetching via TMDB API.",
+      "isFork": false,
+      "category": "ai",
+      "languages": [
+        {
+          "name": "Python",
+          "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
           "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Scikit-learn",
+          "iconifyClass": "simple-icons:scikitlearn"
+        },
+        {
+          "name": "Streamlit",
+          "iconifyClass": "simple-icons:streamlit"
         }
       ]
     },
     {
-      "id": "R_kgDOG_vYHA",
-      "name": "explainable-cnn",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/ashutosh1919/explainable-cnn",
-      "description": "📦 PyTorch based visualization package for generating layer-wise explanations for CNNs.",
+      "id": "house-price-prediction",
+      "name": "House Price Prediction",
+      "createdAt": "2026-02-05T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/House-Price-Prediction-",
+      "description": "ML project predicting California house prices using Random Forest Regression (R² ~0.80). Features GridSearchCV hyperparameter tuning, feature engineering, comprehensive EDA, and an interactive Streamlit web app for real-time predictions.",
       "isFork": false,
+      "category": "ai",
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
+        },
+        {
+          "name": "Jupyter",
+          "iconifyClass": "logos-jupyter"
+        },
+        {
+          "name": "Scikit-learn",
+          "iconifyClass": "simple-icons:scikitlearn"
+        },
+        {
+          "name": "Streamlit",
+          "iconifyClass": "simple-icons:streamlit"
         }
       ]
     },
     {
-      "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "id": "rule-based-chatbot",
+      "name": "Rule-Based AI Chatbot",
+      "createdAt": "2026-02-06T00:00:00Z",
+      "url": "https://github.com/ZahidMiana/Basic-Rule-Base-Ai-Chatbot",
+      "description": "AI chatbot with regex pattern matching, modular Python architecture (Flask backend), and a modern responsive web interface. Supports greetings, help queries, identity, and conversational flows with randomized natural responses.",
       "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        },
-        {
-          "name": "Dockerfile",
-          "iconifyClass": "simple-icons:docker"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOG0_8uQ",
-      "name": "react-awesome-shapes",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/ashutosh1919/react-awesome-shapes",
-      "description": "🌀 Insert Awesome Shapes into Your React Site with Ease.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
-        },
-        {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
-        },
-        {
-          "name": "Shell",
-          "iconifyClass": "simple-icons:shell"
-        },
-        {
-          "name": "JavaScript",
-          "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": "neuro-symbolic-sudoku-solver",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/ashutosh1919/neuro-symbolic-sudoku-solver",
-      "description": "⚙️ Solving sudoku using Deep Reinforcement learning in combination with powerful symbolic representations.",
-      "isFork": false,
+      "category": "ai",
       "languages": [
         {
           "name": "Python",
           "iconifyClass": "logos-python"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "react-liquidswipe",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/ashutosh1919/react-liquidswipe",
-      "description": "🚀 Smooth Liquid Swipe Animation to transition between different components.",
-      "isFork": false,
-      "languages": [
+        },
+        {
+          "name": "Flask",
+          "iconifyClass": "logos-flask"
+        },
         {
           "name": "JavaScript",
           "iconifyClass": "logos-javascript"

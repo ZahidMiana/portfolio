@@ -195,4 +195,46 @@ export const materialTealTheme = {
   splashBg: "#05505E",
 };
 
-export const chosenTheme = blueTheme;
+export const midnightCyanTheme = {
+  body: "#0a0a0f",
+  text: "#e0e0e0",
+  expTxtColor: "#d0d0d0",
+  highlight: "#00d4ff",
+  dark: "#000000",
+  secondaryText: "#8892a4",
+  imageHighlight: "#00d4ff",
+  compImgHighlight: "#1a1a2e",
+  jacketColor: "#0d7377",
+  headerColor: "#00d4ff44",
+  splashBg: "#0a0a0f",
+};
+
+export const darkEmeraldTheme = {
+  body: "#0d1117",
+  text: "#e6edf3",
+  expTxtColor: "#c9d1d9",
+  highlight: "#00e676",
+  dark: "#010409",
+  secondaryText: "#8b949e",
+  imageHighlight: "#00e676",
+  compImgHighlight: "#161b22",
+  jacketColor: "#238636",
+  headerColor: "#00e67644",
+  splashBg: "#0d1117",
+};
+
+export const minimalEleganceTheme = {
+  body: "#fafafa",
+  text: "#2d3436",
+  expTxtColor: "#2d3436",
+  highlight: "#f8f9fa",
+  dark: "#1a1a2e",
+  secondaryText: "#636e72",
+  imageHighlight: "#e17055",
+  compImgHighlight: "#f1f2f6",
+  jacketColor: "#e17055",
+  headerColor: "#e1705533",
+  splashBg: "#2d3436",
+};
+
+export const chosenTheme = minimalEleganceTheme;
