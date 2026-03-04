@@ -14,27 +14,20 @@ class BlogsPage extends Component {
       <div className="blogs-main">
         <Header theme={theme} />
         <div className="basic-blog">
-          <div className="blog-heading-div">
-            <div className="blog-heading-img-div">
-              <img
-                src={require("../../assets/images/blogs_image.svg")}
-                alt="Blogs"
-              />
-            </div>
-            <div className="blog-heading-text-div">
-              <h1
-                className="blog-heading-text"
-                style={{ color: theme.text }}
-              >
-                {blogSection.title}
-              </h1>
-              <p
-                className="blog-header-detail-text subTitle"
-                style={{ color: theme.secondaryText }}
-              >
-                {blogSection.subtitle}
-              </p>
-            </div>
+          <div className="blog-hero-section">
+            <div className="blog-hero-icon">{"\u270D\uFE0F"}</div>
+            <h1
+              className="blog-heading-text"
+              style={{ color: theme.text }}
+            >
+              {blogSection.title}
+            </h1>
+            <p
+              className="blog-header-detail-text subTitle"
+              style={{ color: theme.secondaryText }}
+            >
+              {blogSection.subtitle}
+            </p>
           </div>
         </div>
         <Blogs theme={theme} />

@@ -7,13 +7,22 @@ export default function BlogCard({ blog }) {
     <div className="blog-card-wrapper">
       <div className="blog-container">
         <div className="blog-square">
-          <div className="blog-card-image-wrapper">
-            <img src={blog.image} alt={blog.title} className="blog-card-image" />
+          <div
+            className="blog-card-cover"
+            style={{
+              background:
+                blog.gradient ||
+                "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+            }}
+          >
+            <span className="blog-card-cover-icon">
+              {blog.icon || "\u270D\uFE0F"}
+            </span>
           </div>
           <div className="blog-card-body">
             <div className="blog-meta">
               <span className="blog-date">{blog.date}</span>
-              <span className="blog-dot">·</span>
+              <span className="blog-dot">&middot;</span>
               <span className="blog-read-time">{blog.readTime}</span>
             </div>
             <h3 className="blog-card-title">{blog.title}</h3>
@@ -28,7 +37,7 @@ export default function BlogCard({ blog }) {
                   ))}
               </div>
               <Link to={blog.url} className="blog-read-btn">
-                Read More →
+                Read More &rarr;
               </Link>
             </div>
           </div>
