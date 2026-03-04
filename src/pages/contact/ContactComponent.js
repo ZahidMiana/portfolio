@@ -68,8 +68,8 @@ class Contact extends Component {
                 </p>
                 <div className="blogsite-btn-div">
                   <Button
-                    text="Visit My Blogsite"
-                    newTab={true}
+                    text="Visit My Blogs"
+                    newTab={false}
                     href={blogSection.link}
                     theme={theme}
                   />
