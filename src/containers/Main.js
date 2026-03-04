@@ -6,6 +6,8 @@ import Education from "../pages/education/EducationComponent";
 import Experience from "../pages/experience/Experience";
 import Contact from "../pages/contact/ContactComponent";
 import Projects from "../pages/projects/Projects";
+import BlogsPage from "../pages/blogs/BlogsComponent";
+import BlogPost from "../pages/blogs/BlogPost";
 import { settings } from "../portfolio.js";
 import Error404 from "../pages/errors/error404/Error";
 import ResumePage from "../pages/resume/Resume.js";
@@ -64,6 +66,17 @@ export default class Main extends Component {
           <Route
             path="/contact"
             render={(props) => <Contact {...props} theme={this.props.theme} />}
+          />
+
+          <Route
+            path="/blogs"
+            exact
+            render={(props) => <BlogsPage {...props} theme={this.props.theme} />}
+          />
+          
+          <Route
+            path="/blog/:id"
+            render={(props) => <BlogPost {...props} theme={this.props.theme} />}
           />
 
           {settings.isSplash && (

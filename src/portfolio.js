@@ -686,7 +686,7 @@ const contactPageData = {
     title: "Blogs",
     subtitle:
       "I write about my development journey, technical deep-dives, and lessons learned building real-world projects in Web3, AI, and Full Stack Development.",
-    link: "https://medium.com/@zahidmiana67",
+    link: "/blogs",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
@@ -707,6 +707,56 @@ const contactPageData = {
   },
 };
 
+// Blog Data
+const blogSection = {
+  title: "Blogs",
+  subtitle:
+    "I write about my development journey, technical deep-dives, and lessons learned building real-world projects in Web3, AI, and Full Stack Development.",
+  link: "/blogs",
+  avatar_image_path: "blogs_image.svg",
+  blogs: [
+    {
+      id: 1,
+      title: "Building Scalable MERN Stack Applications",
+      description:
+        "A comprehensive guide on architecting and building production-ready MERN stack applications with best practices, performance optimization, and deployment strategies.",
+      image: "/skills/deeplearning_ai_logo.png",
+      url: "/blog/mern-stack-guide",
+      date: "2024-01-15",
+      readTime: "8 min read",
+      tags: ["MERN", "React", "Node.js", "MongoDB", "Full Stack"],
+      content:
+        "# Building Scalable MERN Stack Applications\n\nThe MERN stack has become one of the most popular choices for building modern web applications. In this guide, I will walk you through building scalable applications.\n\n## Architecture Overview\n\nWhen building a MERN application, structure your project for maintainability and scalability. Separate your client and server into distinct directories with shared utilities.\n\n## Backend Setup\n\nStart by setting up a robust Express.js server with proper middleware and database connections. Use environment variables for configuration and implement proper error handling from the start.\n\n## Frontend Development\n\nUse React with a component-based architecture and proper state management. Keep your components small, focused and reusable. Use Context API or Redux for global state.\n\n## Database Design\n\nDesign MongoDB schemas with performance and scalability in mind. Use proper indexing strategies and avoid deeply nested documents.\n\n## Deployment\n\nUse containerization with Docker and deploy to modern platforms. Set up CI/CD pipelines for automated testing and deployment.\n\nBuilding MERN applications requires attention to performance, security, and scalability from day one.",
+    },
+    {
+      id: 2,
+      title: "Next.js 14: Server Components and App Router",
+      description:
+        "Exploring the latest features in Next.js 14, including Server Components, the App Router, and how these changes improve performance and developer experience.",
+      image: "/skills/deeplearning_ai_logo.png",
+      url: "/blog/nextjs-14-guide",
+      date: "2024-02-10",
+      readTime: "6 min read",
+      tags: ["Next.js", "React", "Server Components", "Performance"],
+      content:
+        "# Next.js 14: Server Components and App Router\n\nNext.js 14 introduces groundbreaking features that revolutionize how we build React applications. Let us explore Server Components and the App Router.\n\n## What are React Server Components?\n\nServer Components allow you to render components on the server, reducing the JavaScript bundle size and improving performance. They fetch data on the server and send only the rendered HTML to the client.\n\n## App Router Benefits\n\nThe new App Router provides:\n- File-based routing with layouts\n- Nested routing and layouts\n- Streaming and Suspense support\n- Built-in SEO optimization\n- Enhanced TypeScript support\n\n## Performance Improvements\n\nServer Components reduce client-side JavaScript and improve Core Web Vitals scores. Pages load faster because less JavaScript needs to be downloaded and executed.\n\n## Best Practices\n\n1. Use Server Components for data fetching\n2. Client Components for interactivity\n3. Combine both for optimal performance\n4. Leverage Suspense boundaries\n\nNext.js 14 represents a significant step forward in React development.",
+    },
+    {
+      id: 3,
+      title: "Solana Blockchain Development with Rust",
+      description:
+        "Getting started with Solana blockchain development using Rust. Learn to build decentralized applications, smart contracts, and interact with the Solana ecosystem.",
+      image: "/skills/deeplearning_ai_logo.png",
+      url: "/blog/solana-rust-development",
+      date: "2024-02-28",
+      readTime: "10 min read",
+      tags: ["Solana", "Rust", "Blockchain", "Web3", "DeFi"],
+      content:
+        "# Solana Blockchain Development with Rust\n\nSolana has emerged as one of the fastest blockchain platforms. Learn how to build on Solana using Rust.\n\n## Why Solana?\n\nSolana offers several advantages:\n- High throughput (50,000+ TPS)\n- Low transaction fees\n- Rust-based smart contracts\n- Growing ecosystem\n- Excellent developer tools\n\n## Setting Up Development\n\nInstall the Solana CLI and Rust toolchain to get started with development. Use solana-test-validator for local testing.\n\n## Building Programs\n\nCreate smart contracts (programs) using Rust with the Solana SDK. The Anchor framework simplifies development with macros and abstractions.\n\n## Frontend Integration\n\nConnect your web applications to Solana using the solana/web3.js library and wallet adapters for user authentication.\n\n## Best Practices\n\n1. Use Anchor framework for complex programs\n2. Test thoroughly on devnet\n3. Implement proper error handling\n4. Optimize for transaction fees\n5. Follow security guidelines\n\nSolana development opens up exciting possibilities in Web3 and DeFi.",
+    },
+  ],
+};
+
 export {
   settings,
   seo,
@@ -721,4 +771,5 @@ export {
   publicationsHeader,
   publications,
   contactPageData,
+  blogSection,
 };

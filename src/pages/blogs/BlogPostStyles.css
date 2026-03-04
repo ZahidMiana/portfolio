@@ -1,0 +1,149 @@
+.blog-post-main {
+  width: 100%;
+}
+
+.blog-post-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 100px 20px 60px;
+}
+
+.blog-post-header {
+  margin-bottom: 40px;
+}
+
+.blog-post-meta {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 14px;
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.blog-post-separator {
+  color: #999;
+  font-weight: bold;
+}
+
+.blog-post-title {
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+}
+
+.blog-post-description {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  font-style: italic;
+}
+
+.blog-post-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 30px;
+}
+
+.blog-post-tag {
+  background-color: #f0f2f5;
+  color: #333;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.blog-post-divider {
+  height: 1px;
+  background: #e0e0e0;
+  margin-bottom: 40px;
+}
+
+.blog-post-content {
+  font-size: 17px;
+  line-height: 1.8;
+  margin-bottom: 50px;
+}
+
+.blog-content-h1 {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 35px 0 15px;
+}
+
+.blog-content-h2 {
+  font-size: 26px;
+  font-weight: 600;
+  margin: 30px 0 12px;
+}
+
+.blog-content-h3 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 25px 0 10px;
+}
+
+.blog-content-p {
+  margin-bottom: 16px;
+}
+
+.blog-list-item {
+  margin-left: 25px;
+  margin-bottom: 8px;
+  list-style-type: disc;
+}
+
+.blog-list-item-numbered {
+  margin-left: 25px;
+  margin-bottom: 8px;
+  list-style-type: decimal;
+}
+
+.blog-post-footer-nav {
+  text-align: center;
+  padding: 30px 0;
+  border-top: 1px solid #e0e0e0;
+}
+
+.back-to-blogs-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 15px;
+  transition: all 0.3s ease;
+}
+
+.back-to-blogs-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  color: white;
+  text-decoration: none;
+}
+
+/* Mobile */
+@media (max-width: 768px) {
+  .blog-post-container {
+    padding: 80px 15px 40px;
+  }
+  .blog-post-title {
+    font-size: 28px;
+  }
+  .blog-post-description {
+    font-size: 16px;
+  }
+  .blog-post-content {
+    font-size: 16px;
+  }
+  .blog-content-h1 {
+    font-size: 26px;
+  }
+  .blog-content-h2 {
+    font-size: 22px;
+  }
+}
